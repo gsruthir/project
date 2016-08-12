@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        click event
+    </title>
+    </head>
+    <body>
+        <input type="button" value="click" id="btnsubmit"/>
+        <p id="p1">some example content</p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+                </script>
+                <script>
+        $(document).ready(function(){
+        $("#btnsubmit").click(function(){
+        $("#p1").hide();
+        });
+        });
+        </script>
+    </body>
+</html>
